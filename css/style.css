@@ -2,14 +2,22 @@ body {
     margin: 0;
     padding: 0;
 
-    font-family: 'Comfortaa', sans-serif;
-    font-size: 14px;
+    font-family: sans-serif;
+    font-size: 16px;
     line-height: 24px;
-    font-weight: 700;
+
     color: white;
 
-    background-color: #000000;
+    background-color: #212121;
 }
+
+h1, h2 {
+    font-family: 'Comfortaa', sans-serif;
+    line-height: 24px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
 .visual-hidden {
     position: absolute;
     width: 1px;
@@ -19,4 +27,189 @@ body {
     padding: 0;
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+.conteiner {
+    width: 980px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+/* Меню */
+
+.main-logo {
+    font-family: 'Comfortaa', sans-serif;
+    line-height: 24px;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: white;
+}
+
+.main-navigation {
+    display: flex;
+    justify-content: start;
+    align-items:center;
+}
+
+.main-navigation-item {
+    float:left;
+    margin-right:20px;
+  }
+  
+
+.main-navigation-list {
+    list-style: none;
+}
+
+.main-navigation-list a {
+    font-family: 'Comfortaa', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: white;
+}
+
+.main-navigation-list a:hover,
+.main-navigation-list a:focus {
+    color: #f50057;
+}
+
+.button{
+    font-family: 'Comfortaa', sans-serif;
+    padding: 10px 30px;
+
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    background-color: #f50057;
+    border: none;
+}
+
+.main-baner a:hover,
+.main-baner a:focus,
+button:hover,
+button:focus,
+button:active {
+
+    background-color: #fa4b89;
+}
+
+/* Банер */
+.conteiner-baner {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.main-baner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 300px;
+
+    background-image: url(../img/bg2.jpg);
+    background-position: center;
+}
+
+.baner-button {
+    margin-top: 20px;
+}
+
+
+/* Приемущества */
+
+.features{
+    margin-top: 40px;
+
+    text-align: center;
+}
+
+.features-list {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.features-item {
+    width: 300px;
+
+    text-align: center;
+}
+
+.features-item h3 {
+    font-size: 30px;
+    line-height: 42px;
+}
+
+/* Как работает */
+
+.how-ti-works{
+    margin-top: 40px;
+    text-align: center;
+
+    background-color: indianred;
+}
+
+.how-ti-works-list {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.how-ti-works-item {
+    width: 300px;
+
+    text-align: center;
+}
+
+.how-ti-works-item h3 {
+    font-size: 30px;
+    line-height: 42px;
+}
+
+/* Тарифы */
+
+.plans{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.plans-list {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.plans-item {
+    width: 300px;
+    margin: 10px;
+
+    text-align: center;
+
+    border: solid gray 2px;
+}
+
+.plans-item h3 {
+    font-size: 30px;
+    line-height: 42px;
 }
