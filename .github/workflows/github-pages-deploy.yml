@@ -19,7 +19,7 @@ jobs:
           yarn install
           yarn run build
       - name: Deploy
-        uses: Gabymeow/lending@1.0
+        uses: Gabymeow/lending@2
         with:
           branch: gh-pages
           folder: build
