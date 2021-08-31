@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: Gabymeow/lending@v2.3.4
+        uses: actions/checkout@v2.3.4
 
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.1.5
@@ -19,7 +19,7 @@ jobs:
           yarn install
           yarn run build
       - name: Deploy
-        uses: Gabymeow/lending@2.3.4
+        uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
           branch: gh-pages
           folder: build
