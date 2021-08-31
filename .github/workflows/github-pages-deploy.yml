@@ -19,7 +19,7 @@ jobs:
           yarn install
           yarn run build
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@4.1.0
+        uses: Gabymeow/github-pages-deploy-action@4.1.0
         with:
           branch: gh-pages
           folder: build
