@@ -30,7 +30,7 @@ h1, h2 {
 }
 
 .conteiner {
-    width: 980px;
+    width: 100%;
     margin: 0 auto;
     padding: 0 10px;
 }
@@ -126,10 +126,15 @@ button:active {
 
 /* Приемущества */
 
+
 .features{
     margin-top: 40px;
-
+    line-height: 24px;
     text-align: center;
+}
+
+.conteiner{
+    width: 960px;
 }
 
 .features-list {
@@ -156,6 +161,7 @@ button:active {
 /* Как работает */
 
 .how-ti-works{
+    line-height: 24px;
     margin-top: 40px;
     text-align: center;
 
@@ -181,6 +187,11 @@ button:active {
 .how-ti-works-item h3 {
     font-size: 30px;
     line-height: 42px;
+}
+
+.how-ti-works-h2{
+    margin: 0;
+    padding: 0;
 }
 
 /* Тарифы */
